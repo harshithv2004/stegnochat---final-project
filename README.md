@@ -20,18 +20,18 @@ A web-based chat application that allows users to send hidden messages within im
   ##Project Structure
 
     
-    ├── app.py             # Main Flask application
-    ├── steganography.py   # Encoding and decoding hidden messages
-    ├── templates/         # HTML templates
-    │   ├── index.html
-    │   ├── login.html
-    │   ├── register.html
-    │   └── chat.html
-    ├── static/            # Static files like uploaded images
-    │   └── uploads/
-    ├── users.json         # User data storage
-    ├── chats.json         # Chat data storage
-    └── README.md          # Project documentation
+      ├── app.py             # Main Flask application
+      ├── steganography.py   # Encoding and decoding hidden messages
+      ├── templates/         # HTML templates
+      │   ├── index.html
+      │   ├── login.html
+      │   ├── register.html
+      │   └── chat.html
+      ├── static/            # Static files like uploaded images
+      │   └── uploads/
+      ├── users.json         # User data storage
+      ├── chats.json         # Chat data storage
+      └── README.md          # Project documentation
 
 ##How It Works
 
