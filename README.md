@@ -16,10 +16,6 @@ A web-based chat application that allows users to send hidden messages within im
 - Secure session management
 - Supports common image formats: PNG, JPG, JPEG, GIF
 
-## Installation
-
-1. Clone the repository:
-
 
   ##Project Structure
 
@@ -38,21 +34,23 @@ A web-based chat application that allows users to send hidden messages within im
     └── README.md          # Project documentation
 
 ##How It Works
-Users register and log in.
 
-Users can send messages to each other.
-
-If an image is uploaded with a hidden message:
-
-The message is encoded into the image using least significant bit (LSB) steganography.
-
-The receiver can decode the hidden message from the image.
+     Users register and log in.
+      
+     Users can send messages to each other.
+     
+     If an image is uploaded with a hidden message:
+     
+     The message is encoded into the image using least significant bit (LSB) steganography.
+     
+     The receiver can decode the hidden message from the image.
 
 ##Dependencies
-Flask
 
-Pillow (PIL)
-
-NumPy
-
-Werkzeug
+    Flask
+    
+    Pillow (PIL)
+    
+    NumPy
+    
+    Werkzeug
